@@ -80,5 +80,6 @@ switch ($colores) {
 
 ?>
 
+<a href="inicio.html">Inicio</a>
 </body>
 </html>
