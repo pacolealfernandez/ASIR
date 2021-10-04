@@ -79,7 +79,7 @@ switch ($colores) {
 }
 
 ?>
-
+<p>Volver al inicio</p>
 <a href="inicio.html">Inicio</a>
 </body>
 </html>
