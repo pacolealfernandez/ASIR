@@ -295,7 +295,6 @@ switch ($dia) {
         break;
 }
 
-
 ?>
 <a href="inicio.html">Inicio</a>
 </body>
