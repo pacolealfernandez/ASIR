@@ -72,7 +72,7 @@ switch ($dia) {
             echo"Estamos en: Servicios de red e Internet";
         }
         else {
-            echo "<center>"."<h3>"."Estamos en casa"."</h3>"."</center>";
+            echo "Estamos en casa";
         }
         echo"<br>";
         echo"<br>";
@@ -123,7 +123,7 @@ switch ($dia) {
                 echo"Estamos en: Empresa e iniciativa emprendedora";
             } 
             else {
-                echo "<center>"."<h3>"."Estamos en casa"."</h3>"."</center>";
+                echo "Estamos en casa";
             }
             echo"<br>";
             echo"<br>";
@@ -171,7 +171,7 @@ switch ($dia) {
                     echo"Estamos en: Servicios de red e Internet";
                 }
                 else {
-                    echo "<center>"."<h3>"."Estamos en casa"."</h3>"."</center>";
+                    echo "Estamos en casa";
                 }
                 echo"<br>";
                 echo"<br>";
@@ -222,7 +222,7 @@ switch ($dia) {
                         echo"Estamos en: Inglés";
                     } 
                     else {
-                        echo "<center>"."<h3>"."Estamos en casa"."</h3>"."</center>";
+                        echo "Estamos en casa";
                     }
                     echo"<br>";
                     echo"<br>";
