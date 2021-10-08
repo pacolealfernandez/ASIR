@@ -264,7 +264,7 @@ switch ($dia) {
                             echo"Estamos en: Inglés";
                         }
                         elseif (('09:15'>=$horacompleta) | ($horacompleta<'11:45')) {
-                            echo"Estamos en: Recreo";
+                            echo"Estamos en: Seguridad y alta disponibilidad";
                         }
                         elseif (('11:15'>=$horacompleta) | ($horacompleta<'11:45')) {
                             echo"Estamos en: Recreo";
