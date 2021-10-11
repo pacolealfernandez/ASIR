@@ -123,7 +123,7 @@ echo "El alumno es: ".$alumnos[$selectaleatorio]."<br>";
 
 function esNumero($numeroco)
 
-if ($numroco.is_int) {
+if (is_int($numroco)) {
 
     echo "Es numero";
 
