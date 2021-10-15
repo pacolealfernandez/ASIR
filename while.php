@@ -121,19 +121,43 @@ echo "El alumno es: ".$alumnos[$selectaleatorio]."<br>";
 
 #Esto falla
 
-function esNumero($numeroco)
+#function esNumero($numeroco)
 
-if (is_int($numroco)) {
+#if (is_int($numroco)) {
 
-    echo "Es numero";
+    #echo "Es numero";
 
-} else {
+#} else {
 
-    echo "No es numero";
+    #echo "No es numero";
+
+#}
+
+#esNumero("hola");
+
+#Nueva funcion
+
+function presenta($nombre,$apellidos,$localidad){
+
+    echo "Mi nombre es ".$nombre." ".$apellidos." y soy de ".$localidad."<br>";
 
 }
 
-esNumero("hola");
+presenta("Miguel","Boca","Lora de estepa");
+
+
+function suma($num1,$num2){
+
+    $res=$num1 + $num2;
+
+    echo "el resultado es: ".$res."<br>";
+
+}
+
+$prueba1=5;
+$prueba2=3;
+suma(3,2);
+suma(3,3);
 
 ?>
 <br>
