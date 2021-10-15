@@ -23,7 +23,52 @@
 
     <h3>Resultado: </h3>
 
+<?php
+
+#Suma
+function suma($num1,$num2){
+
+    $res=$num1 + $num2;
+
+    echo "el resultado es: ".$res."<br>";
+}
+
+#Resta
+function resta($num1,$num2){
+
+    $res=$num1 - $num2;
+
+    echo "el resultado es: ".$res."<br>";
+}
+
+#Multiplicacion
+function mult($num1,$num2){
+
+    $res=$num1 * $num2;
+
+    echo "el resultado es: ".$res."<br>";
+}
+
+#Division
+function div($num1,$num2){
+
+    $res=$num1 / $num2;
+
+    echo "el resultado es: ".$res."<br>";
+}
+
+#Resto
+function Resto($num1,$num2){
+
+    $res=$num1 % $num2;
+
+    echo "el resultado es: ".$res."<br>";
+}
+
+
+?>
 </body>
+
 <br>
 <p>Volver al inicio</p>
 <a href="inicio.html">Inicio</a>
