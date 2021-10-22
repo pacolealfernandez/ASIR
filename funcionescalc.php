@@ -6,6 +6,7 @@
 <body>
 <?php
 
+
 #Suma
 function suma($num1,$num2){
 
@@ -98,19 +99,65 @@ while ($num1>0) {
 #Formulario
 $prueba1=$_POST["operando1"];
 $prueba2=$_POST["operando2"];
+$selector=$_POST["operador"];
 
 #Llamar funciones
+switch ($selector) {
+    #Suma
+    case ' + ':
+        suma($prueba1,$prueba2); echo "El resultado es: ".$res."<br>";
+        break;
+    
+    #Resta
+    case ' - ':
+        resta($prueba1,$prueba2);
+        break;
+    
+    #Multiplicacion
+    case ' X ':
+        mult($prueba1,$prueba2);
+        break;
+        
+    #Division
+    case ' / ':
+        div($prueba1,$prueba2);
+        break;
 
-suma($prueba1,$prueba2);
-resta($prueba1,$prueba2);
-mult($prueba1,$prueba2);
-div($prueba1,$prueba2);
-resto($prueba1,$prueba2);
-raiz($prueba1);
-cuadrado($prueba1);
-cubo($prueba1);
-n_exp($prueba1,$prueba2);
-fibonacci($prueba1);
+    #Resto
+    case ' % ':
+        resto($prueba1,$prueba2);
+        break;
+    
+    #Raiz
+    case ' √ ':
+        raiz($prueba1);
+        break;
+
+    #Elevar al cuadrado
+    case ' n2 ':
+        cuadrado($prueba1);
+        break;
+    
+    #Elevar al cubo
+    case ' n3 ':
+        cubo($prueba1);
+        break;
+
+    #Elevar a cualquier exponente
+    case ' xn ':
+        n_exp($prueba1);
+        break;
+
+    #Fibonacci
+    case ' fibonacci ':
+        fibonacci($prueba1);
+
+        break;
+    
+    default:
+        echo "Intentelo de nuevo mas tarde";
+        break;
+}
 
 ?>
 </body>
