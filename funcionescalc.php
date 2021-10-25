@@ -84,7 +84,7 @@ function fibonacci($num1){
     $n=0;
     $n1=1;
     $n2=0;
-
+echo "El resultado del Fibonacci es: ";
 while ($num1>0) {
 
     $n2=$n1+$n;
@@ -92,7 +92,7 @@ while ($num1>0) {
     $n=$n2;
     $num1--;
 
-    echo "El resultado es: ".$n2."<br>";
+    echo $n2." ";
 }
 }
 
@@ -105,12 +105,12 @@ $selector=$_POST["operador"];
 switch ($selector) {
     #Suma
     case ' + ':
-        $res=suma($prueba1,$prueba2); 
+        suma($prueba1,$prueba2); 
         break;
     
     #Resta
     case ' - ':
-        $res=resta($prueba1,$prueba2);
+        resta($prueba1,$prueba2);
         break;
     
     #Multiplicacion
@@ -120,22 +120,22 @@ switch ($selector) {
         
     #Division
     case ' / ':
-        $res=div($prueba1,$prueba2);
+        div($prueba1,$prueba2);
         break;
 
     #Resto
     case ' % ':
-        $res=resto($prueba1,$prueba2);
+        resto($prueba1,$prueba2);
         break;
     
     #Raiz
     case ' √ ':
-        $res=raiz($prueba1);
+        raiz($prueba1);
         break;
 
     #Elevar al cuadrado
     case ' n2 ':
-        $res=cuadrado($prueba1);
+        cuadrado($prueba1);
         break;
     
     #Elevar al cubo
@@ -145,13 +145,12 @@ switch ($selector) {
 
     #Elevar a cualquier exponente
     case ' xn ':
-        $res=n_exp($prueba1);
+        n_exp($prueba1,$prueba2);
         break;
 
     #Fibonacci
     case ' fibonacci ':
-        $res=fibonacci($prueba1);
-
+        fibonacci($prueba1);
         break;
     
     default:
