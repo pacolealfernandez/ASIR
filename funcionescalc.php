@@ -6,6 +6,10 @@
 <body>
 <?php
 
+#Formulario
+$prueba1=$_POST["operando1"];
+$prueba2=$_POST["operando2"];
+$selector=$_POST["operador"];
 
 #Suma
 function suma($num1,$num2){
@@ -84,7 +88,6 @@ function fibonacci($num1){
     $n=0;
     $n1=1;
     $n2=0;
-echo "El resultado del Fibonacci es: ";
 while ($num1>0) {
 
     $n2=$n1+$n;
@@ -95,11 +98,6 @@ while ($num1>0) {
     echo $n2." ";
 }
 }
-
-#Formulario
-$prueba1=$_POST["operando1"];
-$prueba2=$_POST["operando2"];
-$selector=$_POST["operador"];
 
 #Llamar funciones
 switch ($selector) {
@@ -129,7 +127,7 @@ switch ($selector) {
         break;
     
     #Raiz
-    case ' √ ':
+    case ' raiz ':
         raiz($prueba1);
         break;
 
@@ -150,7 +148,8 @@ switch ($selector) {
 
     #Fibonacci
     case ' fibonacci ':
-        fibonacci($prueba1);
+        echo "El resultado es: 0 ";
+        fibonacci($prueba1-1);
         break;
     
     default:
