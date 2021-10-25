@@ -105,52 +105,52 @@ $selector=$_POST["operador"];
 switch ($selector) {
     #Suma
     case ' + ':
-        suma($prueba1,$prueba2); echo "El resultado es: ".$res."<br>";
+        $res=suma($prueba1,$prueba2); 
         break;
     
     #Resta
     case ' - ':
-        resta($prueba1,$prueba2);
+        $res=resta($prueba1,$prueba2);
         break;
     
     #Multiplicacion
     case ' X ':
-        mult($prueba1,$prueba2);
+        $res=mult($prueba1,$prueba2);
         break;
         
     #Division
     case ' / ':
-        div($prueba1,$prueba2);
+        $res=div($prueba1,$prueba2);
         break;
 
     #Resto
     case ' % ':
-        resto($prueba1,$prueba2);
+        $res=resto($prueba1,$prueba2);
         break;
     
     #Raiz
     case ' √ ':
-        raiz($prueba1);
+        $res=raiz($prueba1);
         break;
 
     #Elevar al cuadrado
     case ' n2 ':
-        cuadrado($prueba1);
+        $res=cuadrado($prueba1);
         break;
     
     #Elevar al cubo
     case ' n3 ':
-        cubo($prueba1);
+        $res=cubo($prueba1);
         break;
 
     #Elevar a cualquier exponente
     case ' xn ':
-        n_exp($prueba1);
+        $res=n_exp($prueba1);
         break;
 
     #Fibonacci
     case ' fibonacci ':
-        fibonacci($prueba1);
+        $res=fibonacci($prueba1);
 
         break;
     
