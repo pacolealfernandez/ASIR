@@ -37,9 +37,9 @@
     function busqueda($text1, $text2){
         $res=strpos($text1,$text2);
           if ($res==True) {
-            echo "La palabra '" . $text2 . "' se encuentra en el texto";
+            echo "La palabra '" . $text2 . "' esta en el texto";
         } else {
-            echo "La palabra '" . $text2 . "' no se encuentra en el texto";
+            echo "La palabra '" . $text2 . "' no esta en el texto";
         }
         
     }
@@ -47,7 +47,7 @@
     #Reemplaza
     function reemplaza($text3,$text2,$text1){
         $res=str_replace($text3,$text2,$text1);
-        echo "El nuevo orden es: " . $res;
+        echo "La nueva frase es: " . $res;
     }
 
     #Llamar funciones
