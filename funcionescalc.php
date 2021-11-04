@@ -11,6 +11,8 @@ $prueba1=$_POST["operando1"];
 $prueba2=$_POST["operando2"];
 $selector=$_POST["operador"];
 
+#Funciones
+
 #Suma
 function suma($num1,$num2){
 
