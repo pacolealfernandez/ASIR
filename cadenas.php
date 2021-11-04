@@ -33,13 +33,13 @@
         echo "El texto '" . $text1 . "' invertido es " . $res;
     }
 
-    #Búsqueda
+    #Busqueda
     function busqueda($text1, $text2){
         $res=strpos($text1,$text2);
           if ($res==True) {
-            echo "La palabra " . $text2 . " se encuentra en el texto";
+            echo "La palabra '" . $text2 . "' se encuentra en el texto";
         } else {
-            echo "La palabra " . $text2 . " no se encuentra en el texto";
+            echo "La palabra '" . $text2 . "' no se encuentra en el texto";
         }
         
     }
@@ -67,7 +67,7 @@
             invierte($text1);
             break;
     
-        #Búsqueda
+        #Busqueda
         case 'busq':
             busqueda($text1, $text2);
             break;
