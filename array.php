@@ -40,7 +40,7 @@ $alumno = array("Nombre" => "Miguel",
             
 echo "El alumno es: ".$alumno["Nombre"]." ".$alumno["Apellidos"]." ".$alumno["Edad"];
 
-<<<<<<< HEAD
+
 #Union de arrives
 #Clase 12 de noviembre
 
@@ -67,8 +67,6 @@ print_r($resultadoInterseccion);
 echo "<br>";
 print_r($colores2);
 
-=======
->>>>>>> 65ef884b5d218e7f29f0e18d23df353157e958a2
 
 
 ?>
