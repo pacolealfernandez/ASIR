@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Vuelos</title>
+    </head>
+<body>
+    <form action="vuelos.php" method="post">
+        <fieldset>
+            <legend>Gestion de vuelos</legend>
+        <fieldset>
+            <legend>Vuelo 1</legend>
+        <p>Codigo<input type="Text" name="infovuelo1[codigo1]" required></p>
+        <p>Ciudad origen<input type="Text" name="infovuelo1[origen1]" required></p>
+        <p>Ciudad destino<input type="Text" name="infovuelo1[destino1]" required></p>
+        <p>Precio<input type="Text" name="infovuelo1[precio1]" required></p>
+        <p>Fecha salida<input id="date" type="date" name="infovuelo1[fecha1]" required></p>
+        </fieldset>
+        <fieldset>
+            <legend>Vuelo 2</legend>
+        <p>Codigo<input type="Text" name="infovuelo2[codigo2]" required></p>
+        <p>Ciudad origen<input type="Text" name="infovuelo2[origen2]" required></p>
+        <p>Ciudad destino<input type="Text" name="infovuelo2[destino2]" required></p>
+        <p>Precio<input type="Text" name="infovuelo2[precio2]" required></p>
+        <p>Fecha salida<input id="date" type="date" name="infovuelo2[fecha2]" required></p>
+        </fieldset>
+        <fieldset>
+            <legend>Herramientas</legend>
+    <select name="herramientas">
+        <option value="Une">Une vuelos</option>
+        <option value="Diferencia">Diferencia entre vuelos</option>
+        <option value="Ordena">Ordena vuelos</option>
+        <option value="Comun">informacion comun</option>
+    </select>
+    </fieldset>
+    </fieldset>
+        <input type="submit" name="resolver" value=" Guardar datos ">
+        <button type="reset">Resetear datos</button>
+    </form>
+</body>
+
+<br>
+<p>Volver al inicio</p>
+<a href="inicio.html">Inicio</a>
+</html>
