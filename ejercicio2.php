@@ -33,7 +33,7 @@
     function arra($text1){
         $res=str_split($text1);
         print_r($res);
-    }
+    } 
 
     #Cuenta caracteres
     function cuenta($text1){

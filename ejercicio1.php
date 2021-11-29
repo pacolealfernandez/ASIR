@@ -70,16 +70,6 @@ function hexde($numero){
       echo "El numero en decimal es: ". $res;
 }
 
-#RANDOM
-
-#if ($sino) {
- #   $sino="Si";
- #  $res=random_int(0, 2048);
-  #  echo $res;
-#}
-
-
-
 
 switch ($selector) {
 

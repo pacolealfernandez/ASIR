@@ -51,7 +51,7 @@ if(isset($_POST["Array"]))
 
     #Quita el primer elemento
 
-    switch ($herramientas) {
+    switch ($herramientas) { 
         case 'primero':
             primero ($entradas);
             break;
