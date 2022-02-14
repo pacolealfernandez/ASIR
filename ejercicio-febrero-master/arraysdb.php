@@ -3,28 +3,30 @@
 #destino
 
 $destino=array(
-    "Vueling-AE12" => "Milán",
-    "Volotea-EA21" => "Roma",
-    "Iberia-WE44" => "Estambul",
-    "Ryanair-EW44" => "Madrid",
-    "Vueling-ZK87" => "Lima",
-    "Volotea-UA21" => "Bilbao",
-    "Iberia-WH44" => "Roma",
-    "Ryanair-EL00" => "Madrid",
-    "Vueling-AE12" => "Roma",
-    "Volotea-EA21" => "Roma");
+    array("Vuelo"=>"Vueling-AE12","Destino"=>"Milán"),
+    array("Vuelo"=>"Volotea-EA21","Destino"=>"Roma"),
+    array("Vuelo"=>"Iberia-WE44","Destino"=>"Estambul"),
+    array("Vuelo"=>"Ryanair-EW44","Destino"=>"Madrid"),
+    array("Vuelo"=>"Vueling-ZK87","Destino"=>"Lima"),
+    array("Vuelo"=>"Volotea-UA21","Destino"=>"Bilbao"),
+    array("Vuelo"=>"Iberia-WH44","Destino"=>"Roma"),
+    array("Vuelo"=>"Ryanair-EL00","Destino"=>"Madrid"),
+    array("Vuelo"=>"Vueling-AE12","Destino"=>"Roma"),
+    array("Vuelo"=>"Volotea-EA21","Destino"=>"Roma")
+);
 
 #fabricanteAvion
 
 $fabricante=array(
-    "Vueling-AE12" => "Boeing",
-    "Volotea-EA21" => "Airbus",
-    "Iberia-WE44" => "Airbus",
-    "Ryanair-EW44" => "Boeing",
-    "Vueling-ZK87" => "Airbus",
-    "Volotea-UA21" => "Boeing",
-    "Iberia-WH44" => "Boeing",
-    "Ryanair-EL00" => "Airbus");
+    array("Vuelo"=>"Vueling-AE12","Fabricante"=>"Boeing"),
+    array("Vuelo"=>"Volotea-EA21","Fabricante"=>"Airbus"),
+    array("Vuelo"=>"Iberia-WE44","Fabricante"=>"Airbus"),
+    array("Vuelo"=>"Ryanair-EW44","Fabricante"=>"Boeing"),
+    array("Vuelo"=>"Vueling-ZK87","Fabricante"=>"Airbus"),
+    array("Vuelo"=>"Volotea-UA21","Fabricante"=>"Boeing"),
+    array("Vuelo"=>"Iberia-WH44","Fabricante"=>"Boeing"),
+    array("Vuelo"=>"Ryanair-EL00","Fabricante"=>"Airbus")
+);
 
 #duracionViaje
 
@@ -68,5 +70,16 @@ $pasajeros=array(
     array("Vuelo"=>"Ryanair-EW44","Pasajeros"=>"77"),
     array("Vuelo"=>"Vueling-ZK87","Pasajeros"=>"82")
 );
+
+    $compañia=array(
+    array("Vuelo"=>"Vueling-AE12","Compañia"=>"Vueling"),
+    array("Vuelo"=>"Volotea-EA21","Compañia"=>"Volotea"),
+    array("Vuelo"=>"Iberia-WE44","Compañia"=>"Iberia"),
+    array("Vuelo"=>"Ryanair-EW44","Compañia"=>"Ryanair"),
+    array("Vuelo"=>"Vueling-ZK87","Compañia"=>"Vueling"),
+    array("Vuelo"=>"Volotea-UA21","Compañia"=>"Volotea"),
+    array("Vuelo"=>"Iberia-WH44","Compañia"=>"Iberia"),
+    array("Vuelo"=>"Ryanair-EL00","Compañia"=>"Ryanair")
+    );
 
 ?>
